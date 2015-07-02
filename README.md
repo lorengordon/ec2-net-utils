@@ -7,8 +7,8 @@ I have extracted the contents here.
 
 ## Creation Steps:
 
-``
+```
 yumdownloader ec2-net-utils
 mkdir ec2-net-utils && cd ec2-net-utils
 rpm2cpio ../ec2-net-utils-*.amzn1.noarch.rpm | cpio -idmv
-``
+```
